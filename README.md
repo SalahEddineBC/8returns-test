@@ -1,24 +1,20 @@
-# README
+# 8Returns test  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run this project follow the next steps:
 
-Things you may want to cover:
+## Install  
 
-* Ruby version
+1. clone the project  
+    `git clone https://github.com/SalahEddineBC/8returns-test.git`  
+2. install the required dependencies:  
+   `bundle install`  
+   `yarn install`  
 
-* System dependencies
+3. create the database  
+   `rails db:create`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. setup the database  
+   `rails db:migrate`
+5. Start the server  
+   `rails s`
+6. Navigate to <http://localhost:3000> for the main page
